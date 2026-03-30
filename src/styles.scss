@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;   /* takes remaining space */
+}
+.nav-item a {
+    color: #fff!important;
+}
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        gap: 30px;
+    }
